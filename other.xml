@@ -1,0 +1,51 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/school_donations/bin/bin/python" value="false" />
+        <entry key="$USER_HOME$/virtualenv/flask_test/bin/python" value="false" />
+        <entry key="/usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/bin/python2.7" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/school_donations/bin/bin/python" value="false" />
+        <entry key="$USER_HOME$/virtualenv/flask_test/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="https://github.com">
+      <option name="assignedIssuesOnly" value="false" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>df93df9edf9fdf99df9bdf9edf9bdf99df9ddfcbdfc8df9bdfcfdfc9df9fdf99dfcbdfcbdf9cdfcedf9fdf99dfcedfcbdf98dfc8df92df93df9bdfc9dfc8df9adf9fdf9adf93df99dfcbdf9bdf9edfcc</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="maisiec" />
+      <option name="repoName" value="adventure" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+  </component>
+</application>
