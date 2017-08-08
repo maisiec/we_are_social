@@ -4,6 +4,8 @@ DEBUG = True
 
 INSTALLED_APPS.append('debug_toolbar')
 
+MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -16,6 +18,6 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_HCC9iZGSlGKmuv8TeN
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_CrLLB7ikEuQLOlVD3zoRcxs7')
 
 # Paypal Settings
-SITE_URL = 'code-institute-social-staging1.herokuapp.com'
-PAYPAL_NOTIFY_URL = 'code-institute-social-staging1.herokuapp.com'
+SITE_URL = 'https://code-institute-social-staging1.herokuapp.com/'
+PAYPAL_NOTIFY_URL = 'https://code-institute-social-staging1.herokuapp.com/'
 PAYPAL_RECEIVER_EMAIL ='maaisiexx-facilitator@hotmail.co.uk'

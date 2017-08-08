@@ -9,8 +9,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'ffzrsi6ta3dvc0#h3ww$=o_ec&w99oekx=g1!@#af@km)ecj0-'
 
-ALLOWED_HOSTS = ['127.0.0.1','http://a47f1d9c.ngrok.io', 'https://code-institute-social-staging1.herokuapp.com/']
+ALLOWED_HOSTS = ['code-institute-social-staging1.herokuapp.com'] # ['127.0.0.1','http://a47f1d9c.ngrok.io']
 SITE_ID = 3
+
 
 # Application definition
 INSTALLED_APPS = [
@@ -53,7 +54,6 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'we_are_social.urls'
