@@ -1,7 +1,7 @@
 from base import *
 import settings 
 
-DEBUG = False
+DEBUG = True
 
 DATABASES = {
     'default': {
