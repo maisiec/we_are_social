@@ -1,4 +1,5 @@
 from base import *
+import settings 
 
 DEBUG = False
 
@@ -14,6 +15,9 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_HCC9iZGSlGKmuv8TeN
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_CrLLB7ikEuQLOlVD3zoRcxs7')
 
 # Paypal Settings
-SITE_URL = 'http://127.0.0.1:8000'
+SITE_URL = 'https://code-institute-social-staging1.herokuapp.com'
 PAYPAL_NOTIFY_URL = 'http://a47f1d9c.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL ='maaisiexx-facilitator@hotmail.co.uk'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
