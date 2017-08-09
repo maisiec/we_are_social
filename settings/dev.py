@@ -1,5 +1,5 @@
 from base import *
-from debug_toolbar.toolbar.loader import DebugToolbar
+
 
 DEBUG = True
 
