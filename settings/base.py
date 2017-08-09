@@ -11,6 +11,7 @@ SECRET_KEY = 'ffzrsi6ta3dvc0#h3ww$=o_ec&w99oekx=g1!@#af@km)ecj0-'
 
 ALLOWED_HOSTS = ['code-institute-social-staging1.herokuapp.com'] # ['127.0.0.1','http://a47f1d9c.ngrok.io']
 SITE_ID = 3
+INTERNAL_IPS = ('127.0.0.1',)
 
 
 # Application definition
