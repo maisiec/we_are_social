@@ -1,4 +1,5 @@
 from base import *
+import debug_toolbar
 
 
 DEBUG = True
