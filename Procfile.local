@@ -1,1 +1,1 @@
-web: gunicorn we_are_social.wsgi:application --log-level debug
+web: gunicorn we_are_social.wsgi:application
