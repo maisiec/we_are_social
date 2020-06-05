@@ -4,7 +4,7 @@ beautifulsoup4==4.4.1
 certifi==2017.4.17
 chardet==3.0.3
 django-disqus==0.5
-Django==1.10.1
+Django==1.11.29
 django-emoticons==1.2
 djangorestframework==3.3
 django-forms-bootstrap==3.1.0
